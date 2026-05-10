@@ -28,3 +28,5 @@ My current portfolio explores how LLMs can be used safely and usefully in corpor
 - C#/.NET integration with LLM and multimodal model APIs.
 - Governance boundaries between internal engineering AI use and AI embedded in delivered products.
 - Turning vague business requests into structured, testable, maintainable systems.
+
+<!-- profile-readme-refresh: 2026-05-10T10:15Z -->
