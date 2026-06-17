@@ -4,8 +4,11 @@ Senior .NET / enterprise systems developer focused on practical GenAI adoption, 
 
 My current portfolio explores how LLMs can be used safely and usefully in corporate software delivery: improving requirements capture, generating structured artefacts, integrating deterministic business rules, and building auditable AI-assisted workflows rather than black-box demos.
 
+It also includes deliberately small legacy-enterprise refreshers, including WPF and COM Interop, because useful delivery often means bridging modern tooling into systems that are already running the business.
+
 ## Selected Projects
 
+- [interop-demo](https://github.com/nikcholer/interop-demo) - minimal .NET Framework COM Interop demo with a VBScript client proving classic `IDispatch` automation across the managed/unmanaged boundary.
 - [csharp-semantic-document-processor](https://github.com/nikcholer/csharp-semantic-document-processor) - .NET 8 and Semantic Kernel document-processing workflow with multimodal classification, typed extraction, deterministic C# policy checks, reviewable outputs, and token/correlation telemetry.
 - [sample-agent](https://github.com/nikcholer/sample-agent) - portable email-to-report agent pattern that turns unstructured business requests into governed report outputs with clarification, permission, generation, response-drafting, and audit steps.
 - [loop-design-build](https://github.com/nikcholer/loop-design-build) - provider-agnostic harness for bounded human-in-the-loop agentic development, using Git-tracked markdown state to keep progress auditable and stop on ambiguity.
