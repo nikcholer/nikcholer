@@ -8,12 +8,14 @@ It also includes deliberately small legacy-enterprise refreshers, including WPF 
 
 ## Selected Projects
 
+- [maf-doc-processor](https://github.com/nikcholer/maf-doc-processor) - .NET 10 document-processing API built on Microsoft Agent Framework, with multimodal classification and extraction, typed workflow routing, composite multi-document capture, deterministic validation and policy, bounded repair and concurrency, usage/correlation telemetry, generated OpenAPI, and an accessible correction UI.
 - [interop-demo](https://github.com/nikcholer/interop-demo) - classic .NET Framework COM Interop demo with a VBScript client, registration scripts, and explicit 32-bit/64-bit automation notes.
-- [csharp-semantic-document-processor](https://github.com/nikcholer/csharp-semantic-document-processor) - .NET 8 and Semantic Kernel document-processing workflow with multimodal classification, typed extraction, deterministic C# policy checks, reviewable outputs, and token/correlation telemetry.
 - [sample-agent](https://github.com/nikcholer/sample-agent) - portable email-to-report agent pattern that turns unstructured business requests into governed report outputs with clarification, permission, generation, response-drafting, and audit steps.
 - [loop-design-build](https://github.com/nikcholer/loop-design-build) - provider-agnostic harness for bounded human-in-the-loop agentic development, using Git-tracked markdown state to keep progress auditable and stop on ambiguity.
 - [Sample-NYCTraffic-Refresh](https://github.com/nikcholer/Sample-NYCTraffic-Refresh) - legacy-refresh case study showing how the loop-design-build harness supported system discovery and delivered a Node/React/SQLite operational data exploration tool in narrow, reviewable slices.
 - [office-vba](https://github.com/nikcholer/office-vba) - Excel and Access modernisation lab showing source-controlled VBA, object inventories, characterisation tests, generated SDLC artefacts, packaging scripts, and .NET migration spikes.
+
+The earlier [csharp-semantic-document-processor](https://github.com/nikcholer/csharp-semantic-document-processor) remains public as a frozen, deprecated Semantic Kernel predecessor. Together the repositories show the rewrite from Semantic Kernel to Microsoft Agent Framework and the subsequent extension of the system through an auditable agentic-coding delivery process.
 
 ## What These Projects Demonstrate
 
